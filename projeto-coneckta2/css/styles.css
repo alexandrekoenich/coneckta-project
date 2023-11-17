@@ -1,0 +1,139 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Helvetica;
+}
+
+body {
+    background-color: #ececec;
+}
+
+#main-container {
+    margin: 0 auto;
+    width: 65%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 200px;
+    align-items: center;
+}
+
+#intro-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#intro-container h1 {
+    font-size: 75px;
+    font-weight: bold;
+    background: linear-gradient(to right, #506ee5,#6adfe0);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+#intro-container p {
+    font-size: 19px;
+    text-align: justify;
+    width: 60%;
+}
+
+
+#form-box {
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    width: 450px;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+#form-login input {
+    padding: 20px;
+    display: block;
+    font-size: 16px;
+    background-color: #Fff;
+    border-radius: 3px;
+    width: 400px;
+    margin: 5px auto;
+    border: 1px solid #dbdbdb;
+}
+
+
+#form-login input[type="submit"] {
+    background-color: #506ee5;
+    color: #fff;
+    margin-top: 15px;
+    border-radius: 5px;
+    font-size: 20px;
+    padding: 20px;
+    font-weight: bold;
+    cursor: pointer;
+    text-align: center;
+}
+
+#form-login input[type="submit"]:hover {
+    background-color: #6adfe0;
+}
+
+#forgot-pass {
+    margin-top: 20px;
+    text-align: center;
+}
+
+#forgot-pass a {
+    text-decoration: none;
+    color: #506ee5;
+    font-size: 14px;
+}
+
+.separator {
+    position: relative;
+}
+  
+.line {
+    border-top: 1px solid #dbdbdb;
+    width: 268px;
+    margin: 25px auto 35px;
+}
+
+#new-account {
+    display: flex;
+}
+
+#new-account input{
+    background-color: #3acf4e;
+    color: #fff;
+    font-size: 20px;
+    margin: 0 auto;
+    padding: 15px;
+    border-radius: 5px;
+    border: none;
+}
+
+#create-page {
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: justify;
+}
+
+#create-page a{
+    text-decoration: none;
+    font-weight: bold;
+    color: #000;
+}
+
+footer {
+    background-color: #fff;
+    height: 300px;
+    margin-top: 200px;
+    padding: 0;
+    max-width: 100%;
+}
+
+#intro-container,
+#form-container {
+    flex: 1; /* Isso permite que as divs ocupem o espaço disponível */
+    margin: 0 10px; /* Ajuste a margem conforme necessário para separar as divs */
+}

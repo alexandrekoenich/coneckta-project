@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: #6ae5f7;
+    background-color: #fff;
     font-family: Helvetica;
 }
 
@@ -29,7 +29,11 @@ nav li {
     text-decoration: none;
     color: #fff;
     margin-right: 20px;
+    border-bottom: 1px solid #fff;
+    padding-bottom: 2px;
+    
 }
+
 
 /* introdução*/
 #intro-container {
@@ -43,7 +47,6 @@ nav li {
     width: 500px;
     margin: 0 auto;
     border-radius: 10px;
-    border: 3px solid #5cb3ec;
 }
 
 #intro-container p {
@@ -53,11 +56,12 @@ nav li {
     font-size: 22px;
     margin: 10px auto;
     color: #000;
+    position: relative;
+    top: -80px;
 }
 /*container do meio*/
 #mid-container  {
     background-color: #fff;
-    border: 3px solid #5cb3ec;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -92,7 +96,7 @@ nav li {
 }
 
 #login-form input[type="submit"] {
-    background-color: #b2dffc;
+    background-color: #4f7ae5;
     color: #fff;
     margin-top: 15px;
     border-radius: 5px;
@@ -104,7 +108,7 @@ nav li {
 }
 
 #login-form input[type="submit"]:hover {
-    background-color: #4a95f6;
+    background-color: #69dcdf;
 }
 
 .separator {
